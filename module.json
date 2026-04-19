@@ -1,0 +1,73 @@
+{
+  "id": "ag-interactive-maps",
+  "title": "🗺️ AG Interactive Maps",
+  "description": "Interactive D&amp;D maps by Adventure Guys.",
+  "version": "13.1.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "manifest": "https://gitlab.com/adventure-guys/interactive-maps/ag-interactive-maps/-/raw/main/module.json",
+  "download": "https://gitlab.com/adventure-guys/interactive-maps/ag-interactive-maps/-/archive/main/ag-interactive-maps-main.zip",
+  "authors": [
+    {
+      "name": "Adventure Guys",
+      "discord": "https://discord.gg/xefpN9789E",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ag-dnd-hub",
+        "type": "module",
+        "manifest": "https://gitlab.com/adventure-guys/ag-dnd-hub/-/raw/main/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "uk-ua",
+        "type": "module"
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "🗺 AG Interactive Maps",
+      "sorting": "a",
+      "color": "#310238",
+      "packs": [
+        "maps"
+      ],
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "🗺️ AG Interactive Maps",
+      "banner": "modules/ag-interactive-maps/assets/adventure-cover-blank.webp",
+      "path": "packs/maps",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/ag-interactive-maps/assets/adventure-cover-blank.webp",
+      "thumbnail": "modules/ag-interactive-maps/assets/adventure-cover-blank.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ]
+}
