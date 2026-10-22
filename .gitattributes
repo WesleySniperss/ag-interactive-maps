@@ -1,0 +1,2 @@
+# LevelDB compendium files must be stored and checked out byte-for-byte
+packs/** binary
