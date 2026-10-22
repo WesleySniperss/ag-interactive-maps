@@ -1,39 +1,16 @@
 {
   "id": "ag-interactive-maps",
   "title": "🗺️ AG Інтерактивні карти",
-  "description": "Інтерактивні карти D&amp;D від Adventure Guys. Мову карт (українська / російська) можна вибрати в налаштуваннях модуля.",
-  "version": "13.2.0",
+  "description": "Інтерактивні карти D&amp;D від Adventure Guys українською.",
+  "version": "13.3.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
-  "manifest": "https://gitlab.com/adventure-guys/interactive-maps/ag-interactive-maps/-/raw/main/module.json",
-  "download": "https://gitlab.com/adventure-guys/interactive-maps/ag-interactive-maps/-/archive/main/ag-interactive-maps-main.zip",
   "authors": [
     {
       "name": "Adventure Guys",
-      "discord": "https://discord.gg/xefpN9789E",
       "flags": {}
-    }
-  ],
-  "esmodules": [
-    "scripts/main.js"
-  ],
-  "languages": [
-    {
-      "lang": "uk",
-      "name": "Українська",
-      "path": "lang/uk.json"
-    },
-    {
-      "lang": "ru",
-      "name": "Русский",
-      "path": "lang/ru.json"
-    },
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
     }
   ],
   "relationships": {
@@ -46,12 +23,6 @@
     ],
     "recommends": [
       {
-        "id": "ag-dnd-hub",
-        "type": "module",
-        "manifest": "https://gitlab.com/adventure-guys/ag-dnd-hub/-/raw/main/module.json",
-        "compatibility": {}
-      },
-      {
         "id": "uk-ua",
         "type": "module",
         "compatibility": {}
@@ -60,7 +31,7 @@
   },
   "packFolders": [
     {
-      "name": "🗺 AG Interactive Maps",
+      "name": "🗺 AG Інтерактивні карти",
       "sorting": "a",
       "color": "#310238",
       "packs": [
@@ -72,7 +43,7 @@
   "packs": [
     {
       "name": "maps",
-      "label": "🗺️ AG Interactive Maps",
+      "label": "🗺️ AG Інтерактивні карти",
       "banner": "modules/ag-interactive-maps/assets/adventure-cover-blank.webp",
       "path": "packs/maps",
       "type": "Adventure",
