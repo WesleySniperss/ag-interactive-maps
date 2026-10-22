@@ -1,11 +1,18 @@
-## 🗺️ Interactive Maps by Adventure Guys
+## 🗺️ Інтерактивні карти від Adventure Guys
 
-Also available at [Adventure Guys](https://adventureguys.club).
+Також доступно на сайті [Adventure Guys](https://adventureguys.club).
 
-### Feedback
-Report bugs and suggest improvements via our [Discord server](https://discord.gg/xefpN9789E).
-Active contributors will be added to the site as co-authors!
+### Мова карт
+Модуль містить українську та російську версії всіх карт: назви сцен, папок і журналів, а також описи локацій.
+Мову можна вибрати в **Налаштуваннях → Налаштування модулів → 🗺️ AG Інтерактивні карти → Мова карт**.
 
-### Support the Authors
-Support us by subscribing on:
+- Пригоди з компендіуму імпортуються вибраною мовою.
+- Після зміни мови вже імпортовані карти перекладаються автоматично. Тексти, які ви змінили вручну, залишаються без змін.
+
+### Зворотний зв'язок
+Повідомляйте про помилки та пропонуйте покращення на нашому [Discord-сервері](https://discord.gg/xefpN9789E).
+Активних учасників буде додано на сайт як співавторів!
+
+### Підтримайте авторів
+Підтримайте нас підпискою на:
 - [Youtube](https://www.youtube.com/channel/UCMR9Sag4E8pi2UYc3estbaw?sub_confirmation=1)

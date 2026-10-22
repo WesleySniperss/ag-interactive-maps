@@ -1,8 +1,8 @@
 {
   "id": "ag-interactive-maps",
-  "title": "🗺️ AG Interactive Maps",
-  "description": "Interactive D&amp;D maps by Adventure Guys.",
-  "version": "13.1.1",
+  "title": "🗺️ AG Інтерактивні карти",
+  "description": "Інтерактивні карти D&amp;D від Adventure Guys. Мову карт (українська / російська) можна вибрати в налаштуваннях модуля.",
+  "version": "13.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -14,6 +14,26 @@
       "name": "Adventure Guys",
       "discord": "https://discord.gg/xefpN9789E",
       "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "uk",
+      "name": "Українська",
+      "path": "lang/uk.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
     }
   ],
   "relationships": {
@@ -33,7 +53,8 @@
       },
       {
         "id": "uk-ua",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -58,7 +79,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "media": [
@@ -69,5 +91,6 @@
       "loop": false,
       "flags": {}
     }
-  ]
+  ],
+  "flags": {}
 }
